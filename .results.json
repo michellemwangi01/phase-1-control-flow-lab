@@ -5,9 +5,9 @@
     "passes": 8,
     "pending": 0,
     "failures": 0,
-    "start": "2023-06-12T11:40:37.856Z",
-    "end": "2023-06-12T11:40:38.471Z",
-    "duration": 615
+    "start": "2023-06-12T11:53:40.024Z",
+    "end": "2023-06-12T11:53:40.626Z",
+    "duration": 602
   },
   "tests": [
     {
@@ -20,7 +20,7 @@
     {
       "title": "charges 30 dollars for a distance over 2000 feet",
       "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
-      "duration": 0,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
@@ -80,7 +80,7 @@
     {
       "title": "charges 30 dollars for a distance over 2000 feet",
       "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
-      "duration": 0,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },

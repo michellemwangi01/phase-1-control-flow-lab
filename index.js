@@ -17,22 +17,33 @@ function ternaryCheckCity(city){
 
  const message = (city === "NYC" )?  'Ok, sounds good.' : 'No go.';
  return message;
-  // if (city === "NYC"){
-  //   return "Ok, sounds good."
-  // }
-  // else{
-  //   return "No go.";
-  // }
+  // if (city === "N
 }
 
 function switchOnCharmFromTip(tip){
-  if (tip === "generous"){
-    return 'Thank you so much.';
+
+  switch (tip) {
+    case "generous":
+      return 'Thank you so much.'
+      break;
+
+      case "not as generous":
+      return 'Thank you.';
+      break;
+  
+    default:
+      return 'Bye.';
+      break;
+      
   }
-  else if (tip === "not as generous"){
-    return "Thank you."
-  }
-  else{
-    return 'Bye.';
-  }
+
+  // if (tip === "generous"){
+  //   return 'Thank you so much.';
+  // }
+  // else if (tip === "not as generous"){
+  //   return "Thank you."
+  // }
+  // else{
+  //   return 'Bye.';
+  // }
 }
